@@ -566,7 +566,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .icon-box .description {
   margin-left: 80px;
-  line-height: 24px;
+  line-height: inherit;
   font-size: 14px;
 }
 
