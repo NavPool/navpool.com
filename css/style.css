@@ -9,7 +9,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: #333;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -474,7 +474,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #333;
   text-align: left;
   font-weight: 700;
   margin-bottom: 5px;
@@ -486,8 +486,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description p {
   text-align: left;
-  margin-bottom: 20px;
-  color: #111;
+  margin: 10px 0 0;
+  color: #333;
 }
 
 /* About Us Section
@@ -545,7 +545,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #7d5ab5;
+  color: rgba(68, 178, 233, 1);
+  font-size: 22px;
+  border: 2px solid rgba(68, 178, 233, 1);
 }
 
 #about .about-container .icon-box .icon i {
@@ -561,12 +563,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .icon-box .title a {
-  color: #111;
+  color: #333;
 }
 
 #about .about-container .icon-box .description {
   margin-left: 80px;
-  line-height: 24px;
+  line-height: inherit;
   font-size: 14px;
 }
 
@@ -602,7 +604,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 50px 20px;
   margin-bottom: 50px;
   text-align: center;
-  border: 1px solid #e6e6e6;
+  border: 2px solid #e6e6e6;
+  border-radius: 7px;
   height: 200px;
   position: relative;
   background: #fafafa;
@@ -622,7 +625,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #7d5ab5;
+  background: rgba(68, 178, 233, 1);
 }
 
 #services .icon a {
@@ -634,19 +637,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 24px;
 }
 
-#services .box:hover .icon {
-  background: #fff;
-  border: 2px solid #7d5ab5;
-}
-
-#services .box:hover .icon i {
-  color: #7d5ab5;
-}
-
-#services .box:hover .icon a {
-  color: #7d5ab5;
-}
-
 #services .title {
   font-weight: 700;
   font-size: 18px;
@@ -654,11 +644,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-  color: #111;
+  color: #333;
 }
 
 #services .description {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
 }
 
@@ -973,4 +963,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+#footer .credits a {
+  color: rgb(68, 178, 233);
 }
