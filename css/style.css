@@ -654,32 +654,37 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-#call-to-action {
+#call-to-action,
+#register {
   /*background: linear-gradient(45deg, rgba(68, 178, 233, 1) 0%, rgba(197, 41, 181, 1) 100%);*/
   background: linear-gradient(45deg, rgba(68, 178, 233, 0.88), rgba(197, 41, 181, 0.88)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
 
-#call-to-action .cta-title {
+#call-to-action .cta-title,
+#register .cta-title {
   color: #fff;
   font-size: 28px;
   font-weight: 700;
 }
 
-#call-to-action .cta-text {
+#call-to-action .cta-text,
+#register .cta-text {
   color: #fff;
 }
 
 @media (min-width: 769px) {
-  #call-to-action .cta-btn-container {
+  #call-to-action .cta-btn-container,
+  #register .cta-btn-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
   }
 }
 
-#call-to-action .cta-btn {
+#call-to-action .cta-btn,
+#register .cta-btn {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -692,7 +697,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#call-to-action .cta-btn:hover {
+#call-to-action .cta-btn:hover,
+#register .cta-btn:hover {
   background: #7d5ab5;
   border: 2px solid #7d5ab5;
 }
