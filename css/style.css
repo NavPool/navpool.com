@@ -974,3 +974,36 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .credits a {
   color: rgb(68, 178, 233);
 }
+
+/*--------------------------------------------------
+# Competition
+ */
+#competition {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
+
+#competition h1 {
+  font-size: 32px;
+  color: #333;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+#competition h3 {
+  margin-top: 20px;
+}
+
+
+@media (min-width: 768px) {
+  #competition h3 {
+    margin-top: 20px;
+    width: 75%;
+  }
+
+  #competition p {
+    width: 60%;
+  }
+}
