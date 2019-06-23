@@ -28,6 +28,14 @@ jQuery(document).ready(function ($) {
     speed: 400
   });
 
+  $('.cta-register').click(function() {
+    gtag('event', 'click', {
+      'event_category': 'outbound',
+      'event_label': "Register",
+      'transport_type': 'beacon'
+    });
+  });
+
   // Mobile Navigation
   if ($('#nav-menu-container').length) {
     var $mobile_nav = $('#nav-menu-container').clone().prop({
